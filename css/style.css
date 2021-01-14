@@ -1,0 +1,47 @@
+.slider-items .item{
+position: relative;
+}
+.slider-items .item .info{
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
+    right: 5%;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 5px;
+}
+.slider-items .item .info p{
+    margin-bottom: 0;
+}
+
+.pop-up{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:rgba(0, 0, 0,.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.pop-up .inner {
+    width: 80%;
+    height: 400px;
+    background-color: royalblue;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+i{
+    cursor: pointer;
+}
+#close{
+    position: absolute;
+    top:5%;
+    right: 5%;
+}
